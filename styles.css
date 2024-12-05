@@ -1,0 +1,75 @@
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Cor de fundo clara */
+    color: #333; /* Cor do texto */
+}
+
+header {
+    background: #ff6f61; /* Cor de fundo rosa */
+    color: white; /* Cor do texto no cabeçalho */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+h1 {
+    margin: 0; /* Remove margens do título */
+}
+
+main {
+    padding: 20px; /* Espaçamento interno do main */
+}
+
+.introducao, .historia, .versoes, .curiosidades {
+    margin-bottom: 30px; /* Espaçamento entre seções */
+    padding: 15px; /* Espaçamento interno */
+    background: white; /* Fundo branco para seções */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+h2 {
+    color: #ff6f61; /* Cor do título das seções */
+}
+
+.versoes-lista {
+    display: flex; /* Layout flexível */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    gap: 15px; /* Espaçamento entre os itens */
+}
+
+.versoes-lista a {
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: inherit; /* Mantém a cor do texto padrão */
+    flex: 1 1 calc(20% - 15px); /* Responsividade */
+    max-width: calc(20% - 15px); /* Largura máxima */
+    background: #f0f0f0; /* Fundo cinza claro */
+    border-radius: 8px; /* Bordas arredondadas */
+    overflow: hidden; /* Esconde o conteúdo que ultrapassa o contêiner */
+    transition: transform 0.3s; /* Transição suave para o efeito de hover */
+}
+
+.versoes-lista a:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+.versoes-lista img {
+    width: 100%; /* Imagem ocupa toda a largura do link */
+    border-bottom: 2px solid #ff6f61; /* Linha abaixo da imagem */
+}
+
+footer {
+    text-align: center; /* Centraliza o texto do rodapé */
+    padding: 10px; /* Espaçamento interno */
+    background: #ff6f61; /* Cor de fundo rosa */
+    color: white; /* Cor do texto no rodapé */
+    position: relative; /* Posição relativa para o rodapé */
+    bottom: 0; /* Alinha o rodapé na parte inferior */
+    width: 100%; /* Largura total */
+}
+
+ul {
+    list-style-type: disc; /* Estilo de lista com marcadores */
+    padding-left: 20px; /* Espaçamento à esquerda */
+}
